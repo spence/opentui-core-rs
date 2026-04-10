@@ -19,3 +19,6 @@ description = "Rust bindings to the sst/opentui terminal rendering engine"
 
 [dependencies]
 opentui-core-sys = { path = "sys" }
+
+[dev-dependencies]
+crossterm = "0.28"
