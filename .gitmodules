@@ -1,0 +1,3 @@
+[submodule "sys/vendor/opentui"]
+	path = sys/vendor/opentui
+	url = https://github.com/sst/opentui.git

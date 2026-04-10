@@ -1,0 +1,16 @@
+[package]
+name = "opentui-core-sys"
+version = "0.1.0"
+edition.workspace = true
+license.workspace = true
+description = "FFI bindings to the sst/opentui Zig core library"
+links = "opentui"
+
+[build-dependencies]
+bindgen = "0.72"
+
+[package.metadata.upstream]
+name = "opentui"
+repo = "https://github.com/sst/opentui"
+commit = "7b71b44"
+path = "vendor/opentui"

@@ -1,0 +1,21 @@
+[workspace]
+resolver = "2"
+members = ["sys"]
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
+keywords = ["tui", "terminal", "rendering"]
+repository = "https://github.com/sst/opentui"
+
+[package]
+name = "opentui-core"
+version = "0.1.0"
+edition.workspace = true
+license.workspace = true
+keywords.workspace = true
+repository.workspace = true
+description = "Rust bindings to the sst/opentui terminal rendering engine"
+
+[dependencies]
+opentui-core-sys = { path = "sys" }
