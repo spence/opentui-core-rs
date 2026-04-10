@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    {
+      "name": "opentui-core",
+      "description": "Build high-quality terminal UIs with the opentui-core Rust rendering engine",
+      "source": {
+        "type": "git",
+        "repo": "https://github.com/spence/opentui-core-rs"
+      }
+    }
+  ]
+}

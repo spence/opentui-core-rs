@@ -1,10 +1,14 @@
+---
+description: Build a terminal UI application using the opentui-core Rust rendering engine. Use when building TUIs, terminal dashboards, CLI tools with rich output, or any interactive terminal application with Rust.
+---
+
 Build a TUI application using the opentui-core crate based on the following description:
 
 $ARGUMENTS
 
 ---
 
-Before writing any code, read `examples/leto.rs` as the reference implementation for how to build TUI applications with this crate. Follow the same patterns.
+Before writing any code, read `examples/leto.rs` from the opentui-core-rs repo as the reference implementation for how to build TUI applications with this crate. Follow the same patterns.
 
 ## Crate overview
 

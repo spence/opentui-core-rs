@@ -1,0 +1,10 @@
+{
+  "name": "opentui-core",
+  "description": "Build high-quality terminal UIs with the opentui-core Rust rendering engine",
+  "version": "0.1.0",
+  "author": {
+    "name": "spence"
+  },
+  "repository": "https://github.com/spence/opentui-core-rs",
+  "license": "MIT"
+}
