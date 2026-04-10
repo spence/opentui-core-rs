@@ -1,0 +1,4 @@
+[env]
+# The Zig core uses global allocator state that is not thread-safe.
+# Tests must run single-threaded.
+RUST_TEST_THREADS = "1"
